@@ -26,6 +26,14 @@ __Linux system required__
 1. Find your sdcard with `df -h`
 2. Launch the script, follow the instruction. 
 
+### Connecting to the cubie 
+
+1. By default arch linux doesn't output with HDMI, you can enable [it](http://archlinuxarm.org/forum/viewtopic.php?f=33&t=7215). 
+2. Or connect to ssh. 
+3. Find your cubie's IP with nmap or your router. 
+4. `nmap -sP 192.160.0.0/24` 
+5. Connect to ssh `ssh CUBIE_IP -l root` to default password is `root`
+
 
 ### Troubleshooting 
 
