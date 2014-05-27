@@ -1,7 +1,6 @@
 cubie2-arch
 ===========
 
-
 # Installation 
 
 [From Nwgat](http://nwgat.net/easily-install-arch-linux-on-your-cubieboard2/)
@@ -18,7 +17,7 @@ __Linux system required__
 
 ### Creating the bootable SD CARD
 
-1. You can the [official arch tutorial](http://archlinuxarm.org/platforms/armv7/allwinner/cubieboard-2)
+1. You can follow the [official arch installation tutorial](http://archlinuxarm.org/platforms/armv7/allwinner/cubieboard-2)
 2. Or download and launch this script 
 3. `wget https://raw.githubusercontent.com/edwardoid/cubieboard-arch-installer/master/install_arch_linux_-_cubieboard2.sh`
 
@@ -30,7 +29,7 @@ __Linux system required__
 
 ### Troubleshooting 
 
-The name of the two partition of your card might be like `sdb0p1` and `sdb0p2`, in that case you need to change the line in the script adding a p before 1 (for example line 75 or 89)
+The name of the two partition of your card might be like `sdb0p1` and `sdb0p2`, in that case you need to change the line in the script adding a `p` before `1` (for example line 75 or 89)
 
 
 Enjoy ! 
