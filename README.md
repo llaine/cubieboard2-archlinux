@@ -24,7 +24,7 @@ __Linux system required__
 ### Managing the script 
 
 1. Find your sdcard with `df -h`
-2. Launch the script, follow the instruction. 
+2. Launch the script as `sudo`, follow the instruction. 
 
 ### Connecting to the cubie 
 
@@ -37,8 +37,9 @@ __Linux system required__
 
 ### Troubleshooting 
 
-The name of the two partition of your card might be like `sdb0p1` and `sdb0p2`, in that case you need to change the line in the script adding a `p` before `1` (for example line 75 or 89)
+The name of the two partition of your card might be like `mmcblk0p1` and `mmcblk0p2`, in that case you need to change the line in the script adding a `p` before `1` (for example line 75 or 89)
 
+That way : `mount /dev/$dev 'p1' /tmp/arch`
 
 Enjoy ! 
 
